@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "src\Ident
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductApi", "src\ProductApi\ProductApi.csproj", "{6401FDD8-FF30-4432-A3A9-056A19B19060}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "src\ClientApp\ClientApp.csproj", "{FD406529-2540-409E-A6EB-343B914A93CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient", "src\WebClient\WebClient.csproj", "{9239ADED-417E-4D1B-9EED-20D8DD0ABDD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6401FDD8-FF30-4432-A3A9-056A19B19060}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6401FDD8-FF30-4432-A3A9-056A19B19060}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6401FDD8-FF30-4432-A3A9-056A19B19060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD406529-2540-409E-A6EB-343B914A93CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD406529-2540-409E-A6EB-343B914A93CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD406529-2540-409E-A6EB-343B914A93CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD406529-2540-409E-A6EB-343B914A93CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9239ADED-417E-4D1B-9EED-20D8DD0ABDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9239ADED-417E-4D1B-9EED-20D8DD0ABDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9239ADED-417E-4D1B-9EED-20D8DD0ABDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9239ADED-417E-4D1B-9EED-20D8DD0ABDD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
